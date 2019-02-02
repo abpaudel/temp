@@ -1,0 +1,19 @@
+{% if page.cover_url %}
+<p class="credits" data-aos="fade-right" data-aos-delay="1000">
+    <a href="{{page.cover_url}}"> cover image </a>
+    {% if page.cover_adapted %}
+    adapted from original 
+    {% endif %}
+    by
+    {% if page.cover_author_url %}
+    <a href="{{page.cover_author_url}}">
+    {% endif %}
+    {{page.cover_author_name}}
+    {% if page.cover_author_url %}
+    </a>,
+    {% endif %}
+    {% if page.cover_license %}
+    licensed under <a href="{{page.cover_license_url}}"> {{page.cover_license}}  </a>
+    {% endif %}
+</p>
+{% endif %}
