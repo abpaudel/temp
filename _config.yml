@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper2/
+baseurl: /temp/
 
 # Website info
 title: Ghost
@@ -68,10 +68,10 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: jekyller
-repo: jasper2
+username: abpaudel
+repo: temp
 branch: master
-relative_source: ../jasper2/
+relative_source: ../temp/
 destination: ../jasper2-pages/
 production_url:  https://apaudel.com.np/temp/
 source_url:  https://github.com/abpaudel/temp/
