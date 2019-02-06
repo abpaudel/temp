@@ -1,6 +1,7 @@
 ---
 layout: post
 current: post
+class: post-template
 subclass: 'post'
 navigation: True
 title: A Surprise Awakening
