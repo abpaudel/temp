@@ -43,7 +43,7 @@ permalink: /blog/:slug/
 # permalink: /author/:author
 # permalink: /tag/:tag
 
-paginate: 5
+paginate: 6
 paginate_path: /blog/page/:num/
 
 # Authors' info in `_data/authors.yml`

@@ -1,14 +1,13 @@
 ---
 layout: post
 current: post
-cover: /assets/img/posts/maasai-mara-kenya.jpg
+subclass: 'post'
 navigation: True
 title: A Surprise Awakening
 slug: a-surprise-awakening
 date: 2015-11-16 19:56:33 +05:45
+cover: /assets/img/posts/maasai-mara-kenya.jpg
 tags:
-class: post-template
-subclass: 'post'
 ---
 
 I woke up from a midday sleep. Actually, somebody woke me up, with a computer on his hand, hoping that I could help him. It was a relaxing nap to get over the travel hangover and a slight jet lag from my trip. And it was beautiful because it was not intended to happen. I call such nap ‘a surprise nap’ and I’m a great fan of it. But this guy woke me up to ‘a surprise wake’ which I’m not a great fan of, and asked me to see his computer. I think I tried ‘startup repair’ on his computer and it started booting up (a simple solution but when you don’t realize, it’s a mountain). He was very happy to see it come back to life because he thought it was some hardware problem.

@@ -6,7 +6,7 @@
 }
 
 .wrapper { 
-  border : px; 
+  border : 100px; 
   overflow:hidden;
   margin: 25px;
 }
@@ -15,6 +15,7 @@
    height: auto;
    padding: 10px;
 }
+
 #left {
   float:left; 
   margin-right:20px;
@@ -56,5 +57,4 @@
 ul#social li{
   list-style: none;
   display:inline;
-}
 }
