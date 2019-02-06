@@ -1,39 +1,81 @@
 ---
 layout: default
 current: home
+main: True
 class: 'home-template'
 navigation: True
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/built/layout.css">
 
 <!-- < default -->
 <!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
-
-<!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                {% if site.logo %}
+    into the {body} of the default.hbs template -->
+    <!-- The big featured header, it uses blog cover image as a BG if available -->
+    <header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
+        <div class="inner">
+            <div class="site-header-content">
+                <h1 class="site-title">
+                    {% if site.logo %}
                     <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
-                {% else %}
+                    {% else %}
                     {{ site.title }}
-                {% endif %}
-            </h1>
-            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
+                    {% endif %}
+                </h1>
+                <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
+            </div>
+            {% include site-nav.html %}
         </div>
-        {% include site-nav.html %}
-    </div>
-</header>
+    </header>
 
-<!-- The main content area -->
-<main id="site-main" class="site-main outer" role="main">
-    <div class="inner">
+    <!-- The main content area -->
+    <main id="site-main" class="site-main outer" role="main">
+        <div class="inner">
+            <div class="post-feed">
+             <article class="post-card home-template">
+                <div class="post-card-content" style="flex: auto">
+                    <header class="post-card-header">
+                        <h2 class="post-card-title"></h2>
+                    </header>
+                    <section class="post-card-excerpt">
+                        <div class="wrapper">
+                            <div id="left">
+                                <img id="bio-image" src="/temp/assets/img/profilepic.jpg">
+                                <div>
+                                    <ul id="social" >
+                                        <li><a href="https://github.com/abpaudel" class="link" target="_blank">
+                                                <i class="fa fa-github"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com/abpaudel" class="link" target="_blank">
+                                                <i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/abpaudel" class="link" target="_blank">
+                                                <i class="fa fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/abpaudel" class="link" target="_blank">
+                                                <i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
 
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {%  include post-card.html %}
+                                </div>
+                                <div>
+                                    <p><a href="/assets/files/Abhishek_Paudel_Resume.pdf" class="link" target="_blank"><i class="fa fa-download"></i> Download Resume</a></p>
+                                </div>
+                            </div>
+                            <div id="right">
+                                <p>I am Abhishek Paudel. I recently completed my Bachelor's degree in Computer Engineering from Tribhuvan University, Institute of Engineering, Pulchowk Campus. I am currently looking forward to building my career in the field of AI and Machine Learning.</p>
+                                <p>I am Abhishek Paudel. I recently completed my Bachelor's degree in Computer Engineering from Tribhuvan University, Institute of Engineering, Pulchowk Campus. I am currently looking forward to building my career in the field of AI and Machine Learning.</p>
+                                <p>I am Abhishek Paudel. I recently completed my Bachelor's degree in Computer Engineering from Tribhuvan University, Institute of Engineering, Pulchowk Campus. I am currently looking forward to building my career in the field of AI and Machine Learning.</p>
+                                <p>I am Abhishek Paudel. I recently completed my Bachelor's degree in Computer Engineering from Tribhuvan University, Institute of Engineering, Pulchowk Campus. I am currently looking forward to building my career in the field of AI and Machine Learning.</p>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </article>
         </div>
-
     </div>
 </main>
