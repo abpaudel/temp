@@ -1,9 +1,13 @@
 ---
 layout: post
+current: post
+class: post-template
+subclass: post
+navigation: True
 title: App Development Camp Experience
-date: 2014-06-14 21:11:00.000000000 +05:45
 slug: app-development-camp
-comments: true
+date: 2014-06-14 21:11:00 +05:45
+tags: 
 ---
 
 Learning new things has always been my passion. And when it comes to learning new things about technology and computers, I never turn back. It had just been  few months that I had started my engineering studies in computer in IOE, Pulchowk Campus. I was a just-born-child in the field of computer programming. As C programming language was included in the course of first semester, I got to take my first leap in programming with C. C was great fun to code in.
@@ -14,6 +18,6 @@ The Dev Camp was a one week programme. The first day was orientation day where A
 
 After a week of training, I was already experiencing a feeling of change inside me and that I can do something from what I have learned. After learning to develop Windows Store App, we were to develop an app in a group. I took it as a great opportunity to show what I have learned and started to work on developing an app in a group with two of my friends. Finally, we developed a game, Fruit Swiper. It is available to download for free in the Windows Store.
 
-[Click here to download FRUIT SWIPER for Windows 8.1](http://apps.microsoft.com/windows/en-us/app/fruit-swiper/f775d682-e187-4bc7-9051-c5faaf2db9b8)
+[Click here to download FRUIT SWIPER for Windows PC](http://apps.microsoft.com/windows/en-us/app/fruit-swiper/f775d682-e187-4bc7-9051-c5faaf2db9b8)
 
 I never thought I could develop Windows Store App. I was just a starter in the field of programming with knowledge of only C. But with great passion, keen enthusiasm and friendly support from the MSPs, it was possible for me to successfully develop a Windows Store App.

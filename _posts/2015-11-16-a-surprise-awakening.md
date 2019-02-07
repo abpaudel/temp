@@ -2,12 +2,12 @@
 layout: post
 current: post
 class: post-template
-subclass: 'post'
+subclass: post
 navigation: True
 title: A Surprise Awakening
 slug: a-surprise-awakening
-date: 2015-11-16 19:56:33 +05:45
 cover: /assets/img/posts/maasai-mara-kenya.jpg
+date: 2015-11-16 19:56:33 +05:45
 tags:
 ---
 

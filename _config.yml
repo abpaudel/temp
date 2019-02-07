@@ -1,7 +1,6 @@
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
-paginate: 100 # it will paginate after this number
 language: 'en-us'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -32,7 +31,7 @@ linkedin: abpaudel
 
 
 # Disqus
-disqus: True
+disqus: False
 disqus_shortname: abpaudel # replace with your disqus username
 
 # Google Analytics
@@ -51,7 +50,11 @@ paginate_path: /blog/page/:num/
 
 # gems and other configs
 # plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
 feed:
   path: feed.xml
@@ -88,7 +91,6 @@ exclude:
   - assets/css
   - node_modules
   - vendor
-  - .travis.yml
   - Gemfile
   - Gemfile.lock
   - GHOST.txt
@@ -97,7 +99,6 @@ exclude:
   - package.json
   - Rakefile
   - README.md
-  - script.py
   - changelog.md
   - "*.Rmd"
   - .git*

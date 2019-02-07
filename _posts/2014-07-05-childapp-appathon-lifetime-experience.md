@@ -1,10 +1,14 @@
 ---
 layout: post
+current: post
+class: post-template
+subclass: post
+navigation: True
 title: ChildApp Appathon - A Lifetime Experience
-date: 2014-07-05 08:01:56 +05:45
 slug: childapp-appathon
-background: '/assets/img/posts/childapp_all.jpg'
-comments: true
+cover: /assets/img/posts/childapp_all.jpg
+date: 2014-07-05 08:01:56 +05:45
+tags:
 ---
 
 I checked my mail and came to know that our team “The Rising Coders” was selected for ChildApp Appathon being held on Dhulikhel Lodge and Resort. It was the first time participating in an appathon for all four of our team. So, everyone of us was very much excited about it.
@@ -51,7 +55,7 @@ After this, we were feeling very light. We roamed around the resort and enjoyed 
 
 I don’t want to emphasize more on the result part. Yeah, we won the third prize and it was one of our lifetime achievements. But more important thing was the lifetime experiences we had there. Overall, I believe that the journey to this achievement was more important than the destination.
 
-![Third Prize Winner](/assets/img/posts/ChildAppNepal_thirdprize.jpg){:class="img-fluid"}
+![Third Prize Winner](/assets/img/posts/ChildAppNepal_thirdprize.jpg)
 
 Finally, this is the last paragraph I am writing. I know I have missed a lot of important things but if I go on writing about those three days, things I learnt and experienced, all those people I met, the relations and networks I built and so on, it’s never going to finish. One last sentence that I don’t want to miss out is:
 

@@ -1,10 +1,14 @@
 ---
 layout: post
+current: post
+class: post-template
+subclass: post
+navigation: True
 title: Technology for Rural Development of Nepal
-date: 2014-06-26 20:23:04 +05:45
 slug: technology-rural-development-nepal
-background: '/assets/img/posts/chhomrong_annapurna_nepal.jpg'
-comments: true
+cover: /assets/img/posts/chhomrong_annapurna_nepal.jpg
+date: 2014-06-26 20:23:04 +05:45
+tags:
 ---
 
 *Technology for Rural Development of Nepal* is a short animated video that I made as an assignment. This assignment was given to me when I applied to become Microsoft Student Partner from my college, Institute of Engineering, Pulchowk Campus.

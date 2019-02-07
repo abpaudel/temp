@@ -1,10 +1,14 @@
 ---
 layout: post
+current: post
+class: post-template
+subclass: post
+navigation: True
 title: Thoughts in the Sexy Weather
-date:   2015-02-26 16:55:37 +05:45
 slug: thoughts-in-the-sexy-weather
-background: '/assets/img/posts/rainy-day.jpg'
-comments: true
+cover: /assets/img/posts/rainy-day.jpg
+date:   2015-02-26 16:55:37 +05:45
+tags:
 ---
 
 The weather was very sexy. Rain, lightning and thunderstorms were mesmerizing. And I was on my bed preparing for mathematics test. Had there been no assessment, you would have found me dancing in the rain (Yeah, I do it often!) Anyway, I was a little bit stressed due the fact that I had not quite prepared for the test.

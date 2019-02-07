@@ -28,8 +28,8 @@ It's a good idea to keep this template as minimal as possible in terms of both f
         <header class="site-header outer {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }})){% else %}no-cover{% endif %}">
             <div class="inner">
                 <nav class="site-nav-center">
-                    {% if site.logo %}
-                        <a class="site-nav-logo" href="{{ site.baseurl }}"><img src="{{site.baseurl}}{{ site.logo }}" alt="{{ site.title }}" /></a>
+                    {% if site.favicon %}
+                        <a class="site-nav-logo" href="{{ site.baseurl }}"><img src="{{site.baseurl}}{{ site.favicon }}" alt="{{ site.title }}" /></a>
                     {% else %}
                         <a class="site-nav-logo" href="{{ site.baseurl }}">{{ site.title }}</a>
                     {% endif %}
@@ -48,16 +48,13 @@ It's a good idea to keep this template as minimal as possible in terms of both f
             </div>
         </main>
 
-        <!-- get "posts" limit="3" -->
-        <aside class="outer">
+<!--         <aside class="outer">
             <div class="inner">
                 <div class="post-feed">
-                    <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
                     {%  include post-card-error.html %}
                 </div>
             </div>
-        </aside>
-        <!-- /get -->
+        </aside> -->
 
     </div>
 </body>

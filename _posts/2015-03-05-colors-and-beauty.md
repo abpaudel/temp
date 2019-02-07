@@ -2,12 +2,12 @@
 layout: post
 current: post
 class: post-template
-subclass: 'post'
+subclass: post
 navigation: True
-date: 2015-03-05 13:56:33 +05:45
 title: Colors and Beauty
 slug: colors-and-beauty
 cover: /assets/img/posts/colors-and-beauty.jpg
+date: 2015-03-05 13:56:33 +05:45
 tags:
 ---
 
